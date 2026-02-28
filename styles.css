@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    background-color: #dcdcdc;
+    background-image: linear-gradient(#cfcfcf 1px, transparent 1px),
+                      linear-gradient(90deg, #cfcfcf 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #2f4fa2, #3d63c9);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 22px;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
+
+/* Layout */
+main {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #efefef;
+    width: 220px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #bbb;
+    box-shadow: 4px 4px 0px #aaa;
+}
+
+.card img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+
+.card p {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.card button {
+    padding: 5px 15px;
+    border: 1px solid #888;
+    background: #ddd;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background: #ccc;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #e5e5e5;
+    border-top: 1px solid #bbb;
+    font-size: 13px;
+}
